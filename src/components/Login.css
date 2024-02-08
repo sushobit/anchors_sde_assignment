@@ -1,0 +1,51 @@
+.loginpagemaincont {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.loginpageseccont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    border-radius: 0.5rem; 
+    background-color: #191919;
+    padding: 3rem;
+    margin-top: 3rem;
+}
+.loginaccount {
+    font-weight: 700; 
+    font-size: 1.875rem; 
+    padding: 1.25rem;
+}
+.loginformmaincont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.75rem;
+    padding: 0.5rem;
+}
+.logininputclass {
+    border-radius: 9999px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: inherit;
+}
+.loginbuttoncontinue {
+    border: none;
+    border-radius: 9999px; 
+    background-color: #404040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    padding: 2px 16px;
+    margin-top: 3px;
+}

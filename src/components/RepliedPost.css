@@ -1,0 +1,33 @@
+.repliedpostleftsec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh; 
+    background-color: #000000; 
+    color: white;
+}
+.repliedpostrightsectionmaincontainer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem; 
+    width: 40%;
+    background-color: #0d0d0d;
+    gap: 1rem; 
+    padding: 0.75rem 1.5rem;
+    overflow-y: auto;
+}
+.repliespostmainhead {
+    font-size: 1.25rem; 
+  text-align: center;
+  font-weight: bold;
+}
+.repliedposttitle {
+    font-size: 1.25rem; 
+    font-weight: bold;
+}
+.repliedpostcommentreplies {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    gap: 1rem;
+}

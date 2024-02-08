@@ -1,0 +1,21 @@
+.Navbar {
+    background-color: black;
+    margin: none;
+}
+.navcont {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 30px;
+}
+
+.navhead {
+    padding-left: 20px;
+}
+
+.logo {
+    height: 50px;
+    width: 45px;
+}

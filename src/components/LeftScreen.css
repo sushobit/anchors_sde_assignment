@@ -1,0 +1,77 @@
+.leftscreenmaincont {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem; 
+    gap: 1rem; 
+    align-items: flex-start;
+    overflow: hidden;
+}
+.leftscreensubcontainer {
+    display: flex;
+    flex-direction: column;
+    color: #868686;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+.leftscreenallpost {
+    border: none;
+    border-radius: 0.5rem; 
+    background-color: #0d0d0d;
+    padding: 0.75rem 2rem;
+    color: #808080;
+    text-decoration: none;
+}
+.leftscreenallcomented {
+    border: none;
+    border-radius: 0.5rem; 
+    background-color: #0d0d0d;
+    padding-left: 2rem;
+    padding-right: 5rem;
+    padding-top: 0.75rem; 
+    padding-bottom: 0.75rem;
+}
+.leftscreenreplied {
+    border-radius: 0.5rem; 
+    background-color: #0d0d0d; 
+    padding-left: 2rem; 
+    padding-right: 2rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; 
+    border: none;
+}
+.createpostlink {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 24px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    justify-content: center;
+    gap: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px; 
+    color: #808080;
+}
+.creatpostcont {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+.logoutbuttoncont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logoutbutton {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #dc2626; 
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; 
+    border-width: 2px;
+    border-color: #dc2626; 
+    border-style: solid;
+    border-radius: 0.5rem;
+}
